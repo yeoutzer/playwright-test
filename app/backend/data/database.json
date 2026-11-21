@@ -1,6 +1,85 @@
 {
-  "boards": [],
-  "cards": [],
-  "lists": [],
+  "boards": [
+    {
+      "name": "first board",
+      "user": 0,
+      "starred": false,
+      "created": "2026-11-22",
+      "id": 1
+    }
+  ],
+  "cards": [
+    {
+      "order": 0,
+      "boardId": 1,
+      "listId": 1,
+      "name": "first_card",
+      "created": "2026-11-22",
+      "deadline": "2026-11-25",
+      "description": "",
+      "completed": false,
+      "id": 1
+    },
+    {
+      "order": 1,
+      "boardId": 1,
+      "listId": 1,
+      "name": "second card",
+      "created": "2026-11-22",
+      "deadline": "2026-11-25",
+      "description": "",
+      "completed": false,
+      "id": 2
+    },
+    {
+      "order": 2,
+      "boardId": 1,
+      "listId": 1,
+      "name": "3rd card",
+      "created": "2026-11-22",
+      "deadline": "2026-11-25",
+      "description": "",
+      "completed": false,
+      "id": 3
+    },
+    {
+      "order": 0,
+      "boardId": 1,
+      "listId": 2,
+      "name": "1",
+      "created": "2026-11-22",
+      "deadline": "2026-11-25",
+      "description": "",
+      "completed": false,
+      "id": 4
+    },
+    {
+      "order": 1,
+      "boardId": 1,
+      "listId": 2,
+      "name": "only 2 cards",
+      "created": "2026-11-22",
+      "deadline": "2026-11-25",
+      "description": "",
+      "completed": false,
+      "id": 5
+    }
+  ],
+  "lists": [
+    {
+      "boardId": 1,
+      "name": "first list",
+      "order": 0,
+      "created": "2026-11-22",
+      "id": 1
+    },
+    {
+      "boardId": 1,
+      "name": "2nd list",
+      "order": 1,
+      "created": "2026-11-22",
+      "id": 2
+    }
+  ],
   "users": []
 }
